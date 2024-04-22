@@ -15,11 +15,8 @@
     "show:dist": "live-server dist",
     "prettier": "prettier  — write src/**/*.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Demidovant/ahj-events.git"
-  },
-  "author": "",
+  "repository": "git+ssh://git@github.com/Demidovant/ahj-events.git",
+  "author": "Anton Demidov <anton_demidov@list.ru>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Demidovant/ahj-events/issues"
@@ -43,6 +40,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "core-js": "3"
+    "core-js": "3",
+    "eslint-plugin-import": "^2.29.1"
   }
 }
