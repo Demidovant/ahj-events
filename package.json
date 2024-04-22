@@ -9,14 +9,17 @@
     "lint": " eslint . --fix",
     "build": "webpack --mode production",
     "coverage": "jest --coverage",
-    "preshow:coverage": "npm run coverage",
+    "preshow:coverage": "yarn run coverage",
     "show:coverage": "live-server coverage/lcov-report",
-    "preshow:dist": "npm run build",
+    "preshow:dist": "yarn run build",
     "show:dist": "live-server dist",
     "prettier": "prettier  — write src/**/*.js"
   },
-  "repository": "git+ssh://git@github.com/Demidovant/ahj-events.git",
-  "author": "Anton Demidov <anton_demidov@list.ru>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Demidovant/ahj-events.git"
+  },
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Demidovant/ahj-events/issues"
@@ -40,7 +43,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "core-js": "3",
-    "eslint-plugin-import": "^2.29.1"
+    "core-js": "3"
   }
 }
