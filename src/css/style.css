@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .grid-row {
+    margin-bottom: 10px;
+  }
+  
+  .grid-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .grid-row:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .grid-cell {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 3px;
+    background: lightblue;
+    border: 1px solid blue;
+    border-radius: 5px;
+  }
+  
+  .grid-cell:last-child {
+    margin-right: 0;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
