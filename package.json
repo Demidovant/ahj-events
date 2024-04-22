@@ -41,8 +41,5 @@
     "mini-css-extract-plugin": "^2.8.1",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "core-js": "3"
   }
 }
