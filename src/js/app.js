@@ -1,4 +1,4 @@
-import Goblin from './init';
+import Character from "./init";
 
-const Game = new Goblin(document.querySelector('.grid-container'));
-Game.getRandomPosition();
+const Game = new Character(document.querySelector(".grid-container"));
+Game.init();
